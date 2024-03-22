@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #020202;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* landin page     image design */
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Center align the text */
+  }
+  
+  .overlay-text h2 {
+    margin-bottom: 10px; /* Add some space between title and paragraph */
+  }
+  
+  .overlay-text p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  
+  .container {
+    width: 100%;
+    
+  }
+  .images{
+    width: 100%;
+  }
+
+/* foote poage start formhere */
+
+footer {
+    background-color: white
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+/*  about me page start from here*/
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 20px; /* Adjust the left position to your preference */
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .overlay-text h2 {
+    margin-bottom: 100px; /* Add some space between title and paragraph */
+  }
+  .overlay-text p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  
+  .container {
+    width: 100%;
+    
+  }
+  .images{
+    width: 100%;
+  }
+/* Navigation Styles */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Contact Form Styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
